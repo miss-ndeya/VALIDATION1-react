@@ -12,19 +12,15 @@ const PostDetails = () => {
   };
 
   return (
-    <div className="container  pt-3">
-      <div className="row">
-        <div className="col-md-8 mx-auto">
-          <h3 className="text text-center fs-1 mb-5">Details post</h3>
-          <h5 className="text-primary my-4 ">{posts.title}</h5>
-          <p>{posts.body}</p>
-          <p>Id: {posts.id} </p>
-          <p>userId: {posts.userId}</p>
-          <button className="btn btn-primary mt-3" onClick={handleClick}>
-            Retour
-          </button>
-        </div>
-      </div>
+    <div className="blog-details ">
+      <article>
+        <h2 className="text-primary">{posts.title}</h2>
+        <p>
+          Id: {posts.id}, userId: {posts.userId}
+        </p>
+        <div>{posts.body}</div>
+        <button className="btn btn-primary" onClick={handleClick}>Retour</button>
+      </article>
     </div>
   );
 };

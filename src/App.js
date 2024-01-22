@@ -5,11 +5,17 @@ import PostDetails from "./components/PostDetails";
 
 function App() {
   return (
-    <div className="App pb-4 min-vh-100">
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/post/:id" element={<PostDetails />} />
-      </Routes>
+    <div className="App">
+      <nav className="navbar">
+        <h1 className="text-primary">Mes Posts</h1>
+       
+      </nav>
+      <div className="content">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/post/:id" element={<PostDetails />} />
+        </Routes>
+      </div>
     </div>
   );
 }
