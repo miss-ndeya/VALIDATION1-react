@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App{
+  /* background: #f0f0f0 */
+  background-color: #f0f0f0;
+}
+.card-title{
+  height: 90px;
+}
