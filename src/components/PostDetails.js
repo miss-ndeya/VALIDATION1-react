@@ -19,7 +19,9 @@ const PostDetails = () => {
           Id: {posts.id}, userId: {posts.userId}
         </p>
         <div>{posts.body}</div>
-        <button className="btn btn-primary" onClick={handleClick}>Retour</button>
+        <button className="btn btn-primary" onClick={handleClick}>
+          Retour
+        </button>
       </article>
     </div>
   );

@@ -8,7 +8,6 @@ function App() {
     <div className="App">
       <nav className="navbar">
         <h1 className="text-primary">Mes Posts</h1>
-       
       </nav>
       <div className="content">
         <Routes>
